@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Today.swift
 //  Prayer
 //
 //  Created by Christopher Davis on 1/20/20.
@@ -8,16 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Today: View {
     var body: some View {
-        VStack {
-            TabBar()
-        }
+        Text("Today")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Today_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Today()
     }
 }
